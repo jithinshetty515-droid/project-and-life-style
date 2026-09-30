@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
-from .api import router as api_router  # noqa: E402
+from api import router as api_router  # noqa: E402
 from .database import init_db  # noqa: E402
 
 app = FastAPI(title="HumanTwin AI", version="1.0.0")
