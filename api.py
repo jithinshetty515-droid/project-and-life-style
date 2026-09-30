@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 import models, schemas
 from database import get_db
 from demo_data import load_demo
-from engine import engine
+import engine
 from api import router as api_router
 router = APIRouter(prefix="/api")
 
