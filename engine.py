@@ -7,7 +7,7 @@ from typing import Dict, List
 
 from sqlalchemy.orm import Session
 
-from .. import models
+import models
 
 CATEGORY_META = {
     "goals": {
