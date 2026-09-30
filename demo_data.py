@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from sqlalchemy.orm import Session
 from database import Base
 import models
-from twin_engine.engine import CATEGORY_META, DEFAULT_PERMISSIONS, refresh_patterns
+from engine import CATEGORY_META, DEFAULT_PERMISSIONS, refresh_patterns
 
 
 def _dt(days=0, hour=23, minute=59):
