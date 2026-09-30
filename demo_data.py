@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 from sqlalchemy.orm import Session
 from database import Base
-from import models
+import models
 from twin_engine.engine import CATEGORY_META, DEFAULT_PERMISSIONS, refresh_patterns
 
 
