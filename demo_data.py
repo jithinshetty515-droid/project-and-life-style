@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 
 from sqlalchemy.orm import Session
 
-from . import models
-from .twin_engine.engine import CATEGORY_META, DEFAULT_PERMISSIONS, refresh_patterns
+from import models
+from twin_engine.engine import CATEGORY_META, DEFAULT_PERMISSIONS, refresh_patterns
 
 
 def _dt(days=0, hour=23, minute=59):
